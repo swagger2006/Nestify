@@ -94,7 +94,7 @@ router.post("/", async (req, res) => {
 
   try {
     const whatsapp = getWhatsAppClient();
-    const whatsappTo = process.env.CONTACT_WHATSAPP_TO || "whatsapp:+916201373137";
+    const whatsappTo = process.env.CONTACT_WHATSAPP_TO || "whatsapp:+919473049803";
 
     if (whatsapp) {
       await whatsapp.client.messages.create({
